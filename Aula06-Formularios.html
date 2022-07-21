@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Fale conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<article>
+
+				<h1 class="tituloFormulario">Formulário para Contato</h1>
+
+				<p>Preencha os campos abaixo:</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome:</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite aqui o seu nome"><br><br>
+					</div>
+
+					<div>
+						<label for="email">E-mail:</label>
+						<input type="email" name="email" id="email" placeholder="Digite o seu melhor e-mail"><br><br>
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem:</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens Front-End você conhece?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens Back-End você conhece?</label>
+							<input type="checkbox" name="linguagens" value="python"> Python
+							<input type="checkbox" name="linguagens" value="java"> Java
+							<input type="checkbox" name="linguagens" value="outras"> Outras
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual a sua cor favorita?</label>
+							<select>
+							<option value="azul">Azul</option>
+							<option value="verde" selected>Verde</option>
+							<option value="vermelho">Vermelho</option>
+							</select>
+						</p>
+					</div>
+
+					<div class="submit">
+						<input type="submit">
+					</div>	
+
+				</form>		
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>
+				Desenvolvido por: Renato da Silva Maldonado<br>
+				Projeto para desenvolvimento web utilizando HTML e CSS<br>
+				Contato: (15) 99606.4114<br>
+				E-mail: <a href="mailto:renatodasilvamaldonado@gmail.com" target="_blank">renatodasilvamaldonado@gmail.com</a></p>
+		</footer>
+		
+	</body>
+</html>
